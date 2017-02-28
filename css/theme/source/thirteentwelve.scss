@@ -30,11 +30,11 @@ $heading3Size: 1.3em;
 $heading4Size: 1.0em;
 
 // Links and actions
-$linkColor: #ff5400;
+$linkColor: #1a1a1a;
 $linkColorHover: lighten( $linkColor, 20% );
 
 // Text selection
-$selectionBackgroundColor: #ff5400;
+$selectionBackgroundColor: #1a1a1a;
 $selectionColor: #fff;
 
 section.has-dark-background {
@@ -48,8 +48,24 @@ section.has-dark-background {
 @import "../template/theme";
 // ---------------------------------------------
 
+.reveal p {
+  text-align: left;
+}
+
 .reveal .progress {
   height: 2px;
+}
+
+.reveal blockquote {
+  padding: 0;
+  font-style: normal;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.reveal blockquote p {
+  font-size: 1.4em;
+  text-align: center;
 }
 
 .reveal .progress span {
@@ -85,18 +101,6 @@ section.has-dark-background {
   margin-bottom: 40px;
 }
 
-.logo *,
-.bee * {
-  fill: #fff;
-}
-
-.bee {
-  display: block;
-  margin: 100px auto;
-  width: 80px;
-  height: 70px;
-}
-
 .redline {
   pointer-events: none;
   max-width: 1550px;
@@ -126,4 +130,17 @@ section.has-dark-background {
   top: 61px;
   width: 91px;
   height: 57px;
+}
+
+.bee {
+  position: absolute;
+  z-index: 13;
+  left: 61px;
+  bottom: 61px;
+  width: 80px;
+  height: 70px;
+}
+
+.slideCentered p {
+  text-align: center;
 }
