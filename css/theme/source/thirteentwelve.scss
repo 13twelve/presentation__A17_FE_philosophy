@@ -3,12 +3,12 @@
 @import "../template/settings";
 
 // Background of the presentation
-$backgroundColor: #333;
+$backgroundColor: #fff;
 
 // Primary/body text
 $mainFont: "Helvetica Neue",Helvetica,Arial,sans-serif;
 $mainFontSize: 36px;
-$mainColor: #fff;
+$mainColor: #1a1a1a;
 
 // Vertical spacing between blocks of text
 $blockMargin: 20px;
@@ -16,7 +16,7 @@ $blockMargin: 20px;
 // Headings
 $headingMargin: 0 0 $blockMargin 0;
 $headingFont: "Helvetica Neue",Helvetica,Arial,sans-serif;
-$headingColor: #fff;
+$headingColor: #1a1a1a;
 $headingLineHeight: 1.2;
 $headingLetterSpacing: normal;
 $headingTextTransform: none;
@@ -37,10 +37,24 @@ $linkColorHover: lighten( $linkColor, 20% );
 $selectionBackgroundColor: #ff5400;
 $selectionColor: #fff;
 
+section.has-dark-background {
+  &, h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+  }
+}
+
 
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
+
+.reveal .progress {
+  height: 2px;
+}
+
+.reveal .progress span {
+  background-color: #1a1a1a;
+}
 
 .reveal section img.graph {
   background: transparent;
@@ -81,4 +95,35 @@ $selectionColor: #fff;
   margin: 100px auto;
   width: 80px;
   height: 70px;
+}
+
+.redline {
+  pointer-events: none;
+  max-width: 1550px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 13;
+  opacity: 0.25;
+}
+
+.redline__pixel {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  z-index: 13;
+  background: red;
+}
+
+.a17logo {
+  position: absolute;
+  z-index: 13;
+  left: 61px;
+  top: 61px;
+  width: 91px;
+  height: 57px;
 }
