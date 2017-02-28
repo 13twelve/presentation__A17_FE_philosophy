@@ -28,6 +28,8 @@ Since starting to work with AREA 17 in 2008, Mike has been lucky to be able to h
 
 ## pixel school
 * intro it
+ * not house style, methodology
+ * maths based
 
 
 ## relationship between design and engineering at A17
@@ -43,15 +45,20 @@ Since starting to work with AREA 17 in 2008, Mike has been lucky to be able to h
 
 ## interface engineering guides
 * intro it
+ * define our methodology
+ * collate our collective learning
+ * onboard new staff
+ * open ourselves up
 
-* principles
-* set up
-* bug tracking
-* typical workflows
-* interpreting artwork
-* code styleguides
-* wordpress set up
-* bootnotes/tips
+* whats it got
+  * principles
+  * set up
+  * bug tracking
+  * typical workflows
+  * interpreting artwork
+  * code styleguides
+  * wordpress set up
+  * bootnotes/tips
 
 ## A17 FE philosophy
 
@@ -59,7 +66,7 @@ Since starting to work with AREA 17 in 2008, Mike has been lucky to be able to h
 * Cutting edge, not bleeding edge
 * Elegant simple solutions
 * You can't know everything
-* Never letting a project fail
+* Never letting a project fail (dont be the weak link)
 * Don't be afraid to say no
 
 * Communication
