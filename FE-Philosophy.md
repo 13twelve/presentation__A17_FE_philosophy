@@ -19,6 +19,10 @@ Since starting to work with AREA 17 in 2008, Mike has been lucky to be able to h
 
 
 
+> accessible, performant, simple, content-focused
+
+
+
 # Plan
 
 ## intro
