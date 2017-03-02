@@ -1,9 +1,11 @@
 **Arnaud Mercier**
 https://arnaud.area17.com/
 
-**Interface Engineering Guides**
+**Guides**
 https://guides.area17.com/
-interface-engineering-techniques/#sample-page
+
+**Interface Engineering Guides**
+https://guides.area17.com/interface-engineering-techniques/
 
 **Boilerplate**
 https://code.area17.com/a17/fe-boilerplate/tree/master
