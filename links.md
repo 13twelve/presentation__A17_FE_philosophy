@@ -1,3 +1,6 @@
+**Arnaud Mercier**
+https://arnaud.area17.com/
+
 **Interface Engineering Guides**
 https://guides.area17.com/
 interface-engineering-techniques/#sample-page
