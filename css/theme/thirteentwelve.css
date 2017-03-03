@@ -339,8 +339,8 @@ body {
 
 .redline__pixel {
   position: absolute;
-  height: 1px;
-  width: 1px;
+  height: 2px;
+  width: 2px;
   z-index: 13;
   background: red; }
 
