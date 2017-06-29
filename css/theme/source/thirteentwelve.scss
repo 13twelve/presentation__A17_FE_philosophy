@@ -123,6 +123,20 @@ section.has-dark-background {
   background: red;
 }
 
+.flexCenterBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.flexCenterBlock > * {
+  display: block;
+  flex: 0 0 auto;
+  margin: 20px auto !important;
+}
+
 .a17logo {
   position: absolute;
   z-index: 13;
@@ -130,6 +144,28 @@ section.has-dark-background {
   top: 61px;
   width: 91px;
   height: 57px;
+}
+
+.a17secondarylogo {
+  display: block;
+  width: 287px;
+  height: 57px;
+  margin: 40px auto 20px;
+
+  &:first-child {
+    margin-top: -8px;
+  }
+}
+
+.thirteentwelvelogo {
+  display: block;
+  width: 422px;
+  height: 86px;
+  margin: 40px auto 20px;
+
+  &:first-child {
+    margin-top: -20px;
+  }
 }
 
 .bee {
