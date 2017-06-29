@@ -37,6 +37,16 @@
 				</section>
 				<section data-markdown>
 					<script type="text/template">
+						## One Minute Silence
+					</script>
+				</section>
+				<section class="slideCentered">
+					<h2>Martyn Hett</h2>
+					<p>1988 - 2017</p>
+					<img src="/img/martynhett.png">
+				</section>
+				<section data-markdown>
+					<script type="text/template">
 						## Intro
 					</script>
 				</section>
@@ -164,6 +174,28 @@
 						* Go that extra mile
 					</script>
 				</section>
+
+				<section style="height: 100%;">
+					<div class="flexCenterBlock">
+						<h1 data-audio-trigger>We're the best damned front end developers in the World</h1>
+						<audio src="/img/nimrod.mp3" data-audio></audio>
+					</div>
+				</section>
+
+				<script>
+					var audioPlaying = false;
+					document.querySelector('[data-audio-trigger]').addEventListener('click',function(){
+						if (!audioPlaying) {
+							document.querySelector('[data-audio]').play();
+							audioPlaying = true;
+						} else {
+							document.querySelector('[data-audio]').pause();
+							document.querySelector('[data-audio]').currentTime = 0;
+							audioPlaying = false;
+						}
+					}, false);
+				</script>
+
 				<section data-markdown>
 					<script type="text/template">
 						### FE philosophy
