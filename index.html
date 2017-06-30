@@ -175,27 +175,6 @@
 					</script>
 				</section>
 
-				<section style="height: 100%;">
-					<div class="flexCenterBlock">
-						<h1 data-audio-trigger>We're the best damned front end developers in the World</h1>
-						<audio src="img/nimrod.mp3" data-audio></audio>
-					</div>
-				</section>
-
-				<script>
-					var audioPlaying = false;
-					document.querySelector('[data-audio-trigger]').addEventListener('click',function(){
-						if (!audioPlaying) {
-							document.querySelector('[data-audio]').play();
-							audioPlaying = true;
-						} else {
-							document.querySelector('[data-audio]').pause();
-							document.querySelector('[data-audio]').currentTime = 0;
-							audioPlaying = false;
-						}
-					}, false);
-				</script>
-
 				<section data-markdown>
 					<script type="text/template">
 						### FE philosophy
